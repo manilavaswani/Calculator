@@ -1,0 +1,61 @@
+body{
+    background-color: #EDF1D6;
+}
+.headingstyle{
+    text-align: center;
+    font-size:50px;
+    color: #40513B;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background-color:#9DC08B;
+    display: flex;
+    width: 20%;
+    padding: 50px 12px;
+    justify-content: center;
+    margin: auto;
+    border-radius: 30px;
+    height: 50vh;
+}
+#textarea{
+    padding: 13px 5px;
+    border: 2px solid black;
+}
+.section1,.section2,.section3,.section4,.section5{
+    display: flex;
+    /* text-align: center;
+    align-items: center;
+    overflow: hidden; */
+} 
+.section1 input, .section2 input, .section3 input, .section4 input
+{
+    margin: auto;
+    justify-content: space-around;
+    font-weight: bold;
+    padding:5px 13px;
+    border: 2px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    /* text-align: center; */
+    width: 50%;
+    margin-right: 2px;
+    /* align-items: center; */
+}
+.section5 input{
+    margin: auto;
+    justify-content: space-around;
+    font-weight: bold;
+    padding:5px 13px;
+    border: 2px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    /* text-align: center; */
+    width: 50%;
+    height: 5vh;
+    margin-right: 2px;
+    align-items: center;
+}
+.calinputs{
+    margin-top: 15px;
+    
+}
